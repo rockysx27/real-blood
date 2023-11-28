@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" id="{86B38BF2-EC2C-4402-A592-77646F6E2528}" target="Five">
+<metadata>
+<name>Blood and Decals Diversity 2.4</name>
+<version>
+<major>2</major>
+<minor>4</minor>
+<tag>Stable</tag>
+</version>
+<author>
+<displayName>Carnathsmecher</displayName>
+</author>
+<description><![CDATA[bluddd]]></description>
+</metadata>
+<colors>
+<headerBackground useBlackTextColor="False">$FF800000</headerBackground>
+<iconBackground>$FFFF0000</iconBackground>
+</colors>
+<content>
+<archive path="common.rpf" createIfNotExist="True" type="RPF7">
+<add source="c7efb55d-9fc7-4ba8-a32d-55f5766d50c1\bloodfx.dat">\data\effects\bloodfx.dat</add>
+<add source="f4b93f71-f785-4e8b-a25b-db9e20c22aed\decals.dat">\data\effects\decals.dat</add>
+<add source="9d4c5623-df19-424b-afd4-bf7eb37e4f82\liquidfx.dat">\data\effects\liquidfx.dat</add>
+<add source="52fe4dbf-25c2-45c1-b98a-73ad5656bb65\weaponfx.dat">\data\effects\weaponfx.dat</add>
+<add source="8b5cc2c4-0c38-4878-af32-0cea1818daea\peddamage.xml">\data\effects\peds\peddamage.xml</add>
+</archive>
+<archive path="update\update.rpf" createIfNotExist="True" type="RPF7">
+<add source="9111d70d-5ca1-41d9-8c84-48b0222db580\bloodfx.dat">\common\data\effects\bloodfx.dat</add>
+<add source="0a689fb7-9824-4323-a3a0-46327d5d5dc1\decals.dat">\common\data\effects\decals.dat</add>
+<add source="043e4efd-fe0d-4d48-b2f0-b895a9b31cdc\liquidfx.dat">\common\data\effects\liquidfx.dat</add>
+<add source="30ca399d-9225-4941-aeb8-6c7da21bc612\weaponfx.dat">\common\data\effects\weaponfx.dat</add>
+<add source="bacb928c-d2df-4695-8a6d-90f1510ca9e9\peddamage.xml">\common\data\effects\peds\peddamage.xml</add>
+<add source="b85005f5-5b32-4986-863f-e9af24ad60c3\ptfx.rpf">\x64\patch\data\effects\ptfx.rpf</add>
+<add source="6656f1ce-61aa-494d-a88b-7037bcdab972\ptfx_hi.rpf">\x64\patch\data\effects\ptfx_hi.rpf</add>
+<add source="5941526f-c387-4f12-83dc-a2414df29e79\ptfx_lo.rpf">\x64\patch\data\effects\ptfx_lo.rpf</add>
+<add source="4819ff97-b1be-4932-9cc8-fe2450e493d9\fxdecal.ytd">\x64\textures\fxdecal.ytd</add>
+<add source="0a1bd2d3-62c0-4c57-87d1-f02f366bb5eb\peddamagedecals.ytd">\x64\textures\peddamagedecals.ytd</add>
+</archive>
+<archive path="x64a.rpf" createIfNotExist="True" type="RPF7">
+<add source="8fe92351-b4b5-4126-a54e-4fe56c557190\fxdecal.ytd">\textures\fxdecal.ytd</add>
+<add source="d3b9ea69-f2cf-4de5-9a69-d334b77e388f\peddamagedecals.ytd">\textures\peddamagedecals.ytd</add>
+</archive>
+</content>
+</package>
